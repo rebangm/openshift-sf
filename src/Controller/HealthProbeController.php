@@ -14,7 +14,7 @@ class HealthProbeController extends AbstractController
     public function index(): JsonResponse
     {
         return $this->json([
-            'status => 'Ok',
+            'status' => 'Ok'
         ]);
     }
 }
